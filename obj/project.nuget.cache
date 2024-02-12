@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "9eIsX/fvk8N9PhUJsmgVGRdcuW6i8ijc7yBrzomFmRgUVTVMELfpSdvrPV09Faqr78yIY5ff9uUjNdLHhjF2rQ==",
+  "success": true,
+  "projectFilePath": "D:\\Code\\KeyGen\\KeyGen.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lewis\\.nuget\\packages\\appsoftware.licenceengine.keygenerator\\1.3.0\\appsoftware.licenceengine.keygenerator.1.3.0.nupkg.sha512",
+    "C:\\Users\\lewis\\.nuget\\packages\\appsoftware.licenceengine.keyverification\\1.3.0\\appsoftware.licenceengine.keyverification.1.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
