@@ -2,7 +2,7 @@
 using System;
 using System.Windows.Forms;
 using AppSoftware.LicenceEngine.Common;
-using AppSoftware.LicenceEngine.KeyGenerator;
+using KeyGen.KeyGenerator;
 
 namespace KeyGen
 {
@@ -41,9 +41,26 @@ namespace KeyGen
                 new KeyByteSet(keyByteNumber: 8, keyByteA: 6, keyByteB: 88, keyByteC: 32)
             };
 
+            // Calculate expiry date (e.g. 1 months from today)
+            //DateTime expiryDate = DateTime.Now.AddMonths(1);
+
+            // expire in 1 day for test
+            DateTime expiryDate = DateTime.Now.AddDays(1);
+            String expiryString = expiryDate.ToString("yyyyMMdd");
+           // MessageBox.Show(expiryDate.ToString());
+
+            // Convert expiry date to a format suitable for encoding in the license key
+            //string expiryString = expiryDate.ToString("yyyyMMdd");
+            //MessageBox.Show(expiryString);
+
+            // Concatenate the user ID and expiry date to form the seed
+            string seed = userID;
+            MessageBox.Show(seed);
+
             // Generate the license key
             var pkvKeyGenerator = new PkvKeyGenerator();
-            return pkvKeyGenerator.MakeKey(userID.GetHashCode(), keyByteSets);
+            return pkvKeyGenerator.MakeKey(seed.GetHashCode(), keyByteSets, expiryString);
+
         }
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KeyGen")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b906d3fb60399f0f60dd842ca225d42fd54ffdd")]
 [assembly: System.Reflection.AssemblyProductAttribute("KeyGen")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KeyGen")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

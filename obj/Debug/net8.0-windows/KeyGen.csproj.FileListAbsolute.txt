@@ -19,3 +19,4 @@ D:\Code\KeyGen\obj\Debug\net8.0-windows\refint\KeyGen.dll
 D:\Code\KeyGen\obj\Debug\net8.0-windows\KeyGen.pdb
 D:\Code\KeyGen\obj\Debug\net8.0-windows\KeyGen.genruntimeconfig.cache
 D:\Code\KeyGen\obj\Debug\net8.0-windows\ref\KeyGen.dll
+D:\Code\KeyGen\obj\Debug\net8.0-windows\KeyGen.sourcelink.json
