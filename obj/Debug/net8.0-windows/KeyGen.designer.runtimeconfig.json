@@ -13,11 +13,10 @@
     ],
     "additionalProbingPaths": [
       "C:\\Users\\lewis\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\lewis\\.nuget\\packages",
-      "D:\\Programs\\visualstudio\\shared\\NuGetPackages"
+      "C:\\Users\\lewis\\.nuget\\packages"
     ],
     "configProperties": {
-      "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": true,
+      "CSWINRT_USE_WINDOWS_UI_XAML_PROJECTIONS": false,
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
     }
   }
